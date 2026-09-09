@@ -4,7 +4,7 @@ on:
     type: [opened, closes]
 jobs:
   first-job:
-  runs-on: ubuntu-latest
-  steps:
-    - name: First steps
-      run: echo "how are you today Mr. Robot?"
+    runs-on: ubuntu-latest
+    steps:
+      - name: First steps
+        run: echo "how are you today Mr. Robot?"
