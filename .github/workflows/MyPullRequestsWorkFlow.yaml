@@ -1,7 +1,7 @@
 name: Pull Request Work Flow
 on: 
   pull_request:
-    types: [opened, closes]
+    types: [opened, closed]
 jobs:
   first-job:
     runs-on: ubuntu-latest
